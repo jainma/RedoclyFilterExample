@@ -2,15 +2,15 @@
 organization: filter
 apis:
   onboarding@v1:
-    root: ./openapi/onBoardingAPI.json
+    root: ./openapi/Account.json
     labels:
       - onboarding
   account@v1:
-    root: ./openapi/accountingAPI.json
+    root: ./openapi/Account1.json
     labels:
       - account
   team@v1:
-    root: ./openapi/teamAPI.json
+    root: ./openapi/Account2.json
     labels:
       - team
 extends:
