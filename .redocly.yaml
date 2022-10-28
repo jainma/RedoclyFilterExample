@@ -1,7 +1,19 @@
 # See https://redocly.com/docs/cli/configuration/ for more information.
+organization: filter
 apis:
-  sample@v1: 
-    root: openapi/openapi.yaml
+  onboarding@v1:
+    root: ./openapi/OnBoarding_API.json
+    labels:
+      - onboarding
+      - active
+  account@v1:
+    root: ./openapi/Accounting_API.json
+    labels:
+      - account
+  team@v1:
+    root: ./openapi/Team_API.json
+    labels:
+      - team
 extends:
   - recommended
 rules:
