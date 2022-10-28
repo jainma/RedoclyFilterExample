@@ -5,7 +5,6 @@ apis:
     root: ./openapi/OnBoarding_API.json
     labels:
       - onboarding
-      - active
   account@v1:
     root: ./openapi/Accounting_API.json
     labels:
